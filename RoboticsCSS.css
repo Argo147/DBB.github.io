@@ -1,0 +1,438 @@
+/* Home Page */
+
+.navbar-brand {
+    font-size: 1.7em;
+}
+
+.navbar-nav>li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-right: 11px;
+}
+
+.instagram-logo {
+    font-size: 2.1rem;
+    color: white;
+}
+
+.about_us {
+    margin: 1.5% 0 5% 1.5%;
+    display: flex;
+    align-items: center;
+}
+
+.about_us img {
+    width: 50%;
+}
+
+.about_us_text {
+    margin: 0 5%;
+    text-align: center;
+}
+
+.about_us_text h2 {
+    margin-bottom: 0.8rem;
+    color: rgb(165, 17, 45);
+}
+
+.about_FTC {
+    margin: 1.5% 1.5% 9% 0%;
+    display: flex;
+    align-items: center;
+}
+
+.about_FTC>img {
+    width: 45%;
+}
+
+.about_FTC_text {
+    margin: 0 5% 0 3%;
+    text-align: center;
+}
+
+.about_FTC_text h2 {
+    margin-bottom: 0.8rem;
+    color: rgb(165, 17, 45);
+}
+
+.about_FTC_text p {
+    margin-bottom: 0.4em;
+}
+
+.about_FTC a {
+    color: rgb(123, 123, 123);
+    text-decoration: none;
+}
+
+.about_FTC a:hover {
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+
+
+/* Team Page */
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 4em 0 4em;
+}
+
+.hide,
+.hide2 {
+    visibility: hidden;
+}
+
+
+.member {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 380px;
+    height: auto;
+    border: 2px solid rgb(165, 17, 45);
+    margin: 2em 0.5em 0em 0.5em;
+}
+
+.member_layout {
+    width: 90%;
+    height: auto;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    margin: 5% 0 2.5% 0;
+}
+
+.team_header {
+    text-align: center;
+    font-size: 4em;
+    margin: 0.5em 0.5em 0.1em 0.5em;
+
+}
+
+.member_description {
+    color: rgb(165, 17, 45);
+    margin-bottom: 1.2em;
+}
+
+.name {
+    font-size: 1.8em;
+}
+
+.job {
+    font-size: 1.2em;
+}
+
+/* Contact Us Page */
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7em;
+}
+
+.form_layout {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    margin: 4em 4em 0 4em;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+form>div {
+    width: 95%;
+}
+
+.form_layout h2 {
+    margin: 7% 0 2% 12%;
+}
+
+.full_name {
+    display: flex;
+    width: 100%;
+}
+
+.full_name input {
+    width: 100%;
+    height: 40px;
+}
+
+.email {
+    width: 100%;
+    height: 40px;
+}
+
+.message {
+    width: 100%;
+}
+
+.first_name,
+.last_name {
+    width: 50%;
+}
+
+.first_name {
+    margin-right: 2%;
+}
+
+.form_text {
+    font-size: 15px;
+    line-height: 2.3em;
+}
+
+textarea {
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(165, 17, 45);
+    margin-top: 0.5%;
+    margin-bottom: 14%;
+}
+
+.first_name,
+.last_name,
+.email_form,
+.message_form {
+    margin-bottom: 2.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: lightgrey;
+    color: black;
+    margin-top: auto;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 17rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(48, 48, 48);
+}
+
+#footer_instagram {
+    font-size: 1.5em;
+}
+
+.team_page_section {
+    margin-bottom: 7em;
+}
+
+@media (max-width: 2339px) {
+    .hide2 {
+        display: none;
+    }
+}
+
+@media(max-width: 1075px) {
+    .hide {
+        display: none;
+    }
+
+    .full_name {
+        flex-direction: column;
+    }
+
+    .first_name,
+    .last_name {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 960px) {
+
+    .about_us_text,
+    .about_FTC_text {
+        margin-bottom: 0.6rem;
+        font-size: 0.8em;
+    }
+
+}
+
+@media(max-width: 810px) {
+
+    .about_us_text,
+    .about_FTC_text {
+        margin-bottom: 0.4rem;
+        font-size: 0.66em;
+
+    }
+}
+
+
+@media(max-width: 768px) {
+    .instagram-logo {
+        display: none;
+    }
+}
+
+@media(max-width: 760px) {
+    .team {
+        margin: 0 1em 0 1em;
+    }
+
+}
+
+@media(max-width: 705px) {
+
+    .about_us {
+        flex-direction: column;
+        margin: 1em 0 0 0;
+    }
+
+    .about_FTC {
+        flex-direction: column;
+        margin: 2em 0 5em 0;
+    }
+
+    .about_us img {
+        width: 90%;
+        margin-bottom: 3%;
+    }
+
+    .about_FTC>img {
+        display: none;
+    }
+
+    .about_us_text,
+    .about_FTC_text {
+        margin: 0px 5%;
+        font-size: 0.9em;
+    }
+
+    .form_layout {
+        margin: 3em 2em 0 2em;
+    }
+}
+
+@media (max-width: 665px) {
+    .member {
+        width: 45%;
+    }
+
+    .name {
+        font-size: 1.6em;
+    }
+
+    .job {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 570px) {
+    .name {
+        font-size: 1.4em;
+    }
+
+    .job {
+        font-size: 1em;
+    }
+
+    .team_header {
+        font-size: 3.5em;
+    }
+
+    .form_layout {
+        box-shadow: none;
+        margin: 0em 0em 0em 0em;
+    }
+}
+
+@media(max-width: 500px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 490px) {
+    .name {
+        font-size: 1.2em;
+    }
+
+    .job {
+        font-size: 0.9em;
+    }
+
+    .team_header {
+        font-size: 3em;
+    }
+
+    footer {
+        height: 70px;
+    }
+}
+
+@media(max-width: 400px) {
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+
+    .form_layout {
+        margin: 2em 1em 0 1em;
+    }
+
+    .team_header {
+        font-size: 2.5em;
+    }
+
+    .name {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 351px) {
+    .member {
+        width: 90%;
+    }
+
+    .name {
+        font-size: 1.5em;
+
+    }
+
+    .job {
+        font-size: 1em;
+    }
+
+    .footer a {
+        font-size: 0.8em;
+    }
+
+    .navbar-brand {
+        font-size: 1.05em;
+    }
+}
